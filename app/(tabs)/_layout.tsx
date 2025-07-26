@@ -51,7 +51,7 @@ export default function TabLayout() {
         name="profile"
         options={{
           title: 'Buche',
-          tabBarIcon: ({ color }) => <MaterialCommunityIcons name="lightbulb-on-outline" size={24} color="black" />,
+          tabBarIcon: ({ color }) => <MaterialCommunityIcons name="account-circle-outline" size={24} color="black" />,
         }}
       />
     </Tabs>
