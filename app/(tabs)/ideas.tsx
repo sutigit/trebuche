@@ -5,7 +5,7 @@ import ParallaxScrollView from '@/components/ParallaxScrollView';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
 
-export default function TabTwoScreen() {
+export default function IdeasScreen() {
   return (
     <ParallaxScrollView
       headerBackgroundColor={{ light: '#ffffff', dark: '#333333' }}
@@ -18,7 +18,7 @@ export default function TabTwoScreen() {
         />
       }>
       <ThemedView style={styles.titleContainer}>
-        <ThemedText type="subtitle">Trebuches kokoelmat</ThemedText>
+        <ThemedText type="subtitle">Omat ideat</ThemedText>
       </ThemedView>
       {/* <ThemedText>This app includes example code to help you get started.</ThemedText> */}
       {/* <Collapsible title="File-based routing">

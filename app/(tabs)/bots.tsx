@@ -5,20 +5,20 @@ import ParallaxScrollView from '@/components/ParallaxScrollView';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
 
-export default function HomeScreen() {
+export default function BotsScreen() {
   return (
     <ParallaxScrollView
       headerBackgroundColor={{ light: '#fff', dark: '#333' }}
       headerImage={
         <Image
-          source={require('@/assets/images/stars.svg')}
+          source={require('@/assets/images/bot.svg')}
           style={styles.headerImg}
           contentFit='contain'
           contentPosition='center'
         />
       }>
       <ThemedView style={styles.titleContainer}>
-        <ThemedText type="subtitle">Trebuche botit</ThemedText>
+        <ThemedText type="subtitle">Botit</ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
         {/* <ThemedText type="subtitle">Step 1: Try it</ThemedText>

@@ -27,16 +27,30 @@ export default function TabLayout() {
         }),
       }}>
       <Tabs.Screen
-        name="index"
+        name="explore"
+        options={{
+          title: 'Tutki',
+          tabBarIcon: ({ color }) => <MaterialCommunityIcons name="magnify" size={24} color="black" />,
+        }}
+      />
+      <Tabs.Screen
+        name="ideas"
+        options={{
+          title: 'Ideat',
+          tabBarIcon: ({ color }) => <MaterialCommunityIcons name="lightbulb-on-outline" size={24} color="black" />,
+        }}
+      />
+      <Tabs.Screen
+        name="bots"
         options={{
           title: 'Botit',
           tabBarIcon: ({ color }) => <MaterialCommunityIcons name="robot-excited-outline" size={24} color="black" />,
         }}
       />
       <Tabs.Screen
-        name="outputs"
+        name="profile"
         options={{
-          title: 'Ideat',
+          title: 'Buche',
           tabBarIcon: ({ color }) => <MaterialCommunityIcons name="lightbulb-on-outline" size={24} color="black" />,
         }}
       />
