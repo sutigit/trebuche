@@ -26,13 +26,13 @@ export default function TabLayout() {
           default: {},
         }),
       }}>
-      <Tabs.Screen
+      {/* <Tabs.Screen
         name="explore"
         options={{
           title: 'Tutki',
           tabBarIcon: ({ color }) => <MaterialCommunityIcons name="magnify" size={24} color="black" />,
         }}
-      />
+      /> */}
       <Tabs.Screen
         name="ideas"
         options={{
@@ -47,13 +47,13 @@ export default function TabLayout() {
           tabBarIcon: ({ color }) => <MaterialCommunityIcons name="robot-excited-outline" size={24} color="black" />,
         }}
       />
-      <Tabs.Screen
+      {/* <Tabs.Screen
         name="profile"
         options={{
           title: 'Buche',
           tabBarIcon: ({ color }) => <MaterialCommunityIcons name="account-circle-outline" size={24} color="black" />,
         }}
-      />
+      /> */}
     </Tabs>
   );
 }
